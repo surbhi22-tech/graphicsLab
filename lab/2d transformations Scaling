@@ -1,0 +1,10 @@
+1. Make a 2x2 scaling matrix S as:
+   Sx 0
+   0  Sy
+2. For each point of the polygon.
+   (i) Make a 2x1 matrix P, where P[0][0] equals 
+       to x coordinate of the point and P[1][0] 
+       equals to y coordinate of the point.
+   (ii) Multiply scaling matrix S with point 
+        matrix P to get the new coordinate.
+3. Draw the polygon using new coordinates.
